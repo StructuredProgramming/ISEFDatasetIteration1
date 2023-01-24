@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 %config InlineBackend.figure_format = 'svg'
 import scipy.spatial.distance as sciDist
 import numpy as np
+import random
 import copy
 from itertools import permutations
 def isSimple(tpMat):
