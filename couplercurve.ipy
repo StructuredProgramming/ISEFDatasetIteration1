@@ -293,7 +293,7 @@ for i in picks:
 
     jdxTest1, meetAnEnd1, isReallySimple1 = computeCurveSimple(tpTest, posInitTest, rMatTest, distMat = None)
     #print('final', jdxTest1.shape, meetAnEnd1, isReallySimple1)
-    if(jdxTest1.shape[0]==360):
+    if(jdxTest1.shape[1]==360):
     # Draw the first mechanism (fully rotatable)
         plt.plot(jdxTest1[4,:,0], jdxTest1[4,:,1], color = 'black')
         plt.axis('equal')
